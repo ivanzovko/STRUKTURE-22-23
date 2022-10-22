@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b76e265d-7926-407e-9a24-dc8626e8c255}</ProjectGuid>
+    <ProjectGuid>{72cac083-b479-42e3-9cf6-75ca6bc8c336}</ProjectGuid>
     <RootNamespace>vjezba1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -10,27 +10,30 @@
 #define MAX_I_P (10)
 #define max_br_bodova (150)
 
-int brojiStudenteizDatoteke(char* ime_dat);
 typedef struct Student {
 	char Ime_studenta[MAX_I_P];
 	char Prezime_studenta[MAX_I_P];
 	int broj_bodova_aps;
 	double broj_bodova_realno;
 } Student;
-void citajPodatke(Student*, char* ime_dat, int br_studenata);
+
+int citajPodatke(Student*, char* ime_dat, int br_studenata);
+int brojiStudenteizDatoteke(char* ime_dat);
 
 int main() {
 	char ime_dat[MAX_FILE_NAME] = { 0 };
 	int br_studenata = 0;
 	int i = 0;
+	Student* st = NULL;
 
 	printf("Molimo unesite ime datoteke: ");
 	scanf(" %s", ime_dat);
 	if (brojiStudenteizDatoteke(ime_dat) != GRESKA_OTVARANJA) {
 		br_studenata = brojiStudenteizDatoteke(ime_dat);
 		printf("Broj studenata u datoteci %s je %d.\n", ime_dat, br_studenata);
-		Student* st;
 		st = (Student*)malloc(br_studenata * sizeof(Student));
+		if (st == NULL)
+			return EXIT_FAILURE;
 		citajPodatke(st, ime_dat, br_studenata);
 	}
 	return EXIT_SUCCESS;
@@ -47,7 +50,8 @@ int brojiStudenteizDatoteke(char* ime_dat) {
 		return GRESKA_OTVARANJA;
 	}
 
-	while (fgets(buffer, MAX_RED, fp)) {// sa !feof funkcijom imam problem ukoliko je zadnji redak prazan ocitava ga kao da je popunjen
+	while (!feof(fp)) {// sa !feof funkcijom imam problem ukoliko je zadnji redak prazan ocitava ga kao da je popunjen
+		fgets(buffer, MAX_RED, fp);
 		if (strcmp("\n", buffer) != 0)
 			brojac++;
 	}
@@ -55,7 +59,7 @@ int brojiStudenteizDatoteke(char* ime_dat) {
 	return brojac;
 }
 
-void citajPodatke(Student* st, char* ime_dat, int br_studenata) {
+int citajPodatke(Student* st, char* ime_dat, int br_studenata) {
 	FILE* fp = NULL;
 	int i = 0;
 
@@ -73,4 +77,5 @@ void citajPodatke(Student* st, char* ime_dat, int br_studenata) {
 		printf("%*s%*s%*d%*.2f\n", 10, (st + i)->Ime_studenta, 11, (st + i)->Prezime_studenta, 8, (st + i)->broj_bodova_aps, 9, (st + i)->broj_bodova_realno);//brojevi 10,11,8,9 sluze kako bi se centrirao ispis
 
 	fclose(fp);
+	return EXIT_SUCCESS;
 }
