@@ -36,6 +36,7 @@ int main() {
 			return EXIT_FAILURE;
 		citajPodatke(st, ime_dat, br_studenata);
 	}
+	free(st);
 	return EXIT_SUCCESS;
 }
 
