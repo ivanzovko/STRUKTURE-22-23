@@ -1,0 +1,42 @@
+﻿  zad3.c
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(61,20): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(61,17): warning C4024: 'UnosStudenta': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(61,29): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(61,22): warning C4024: 'UnosStudenta': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(62,17): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(62,14): warning C4024: 'UpisP': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(62,26): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(62,19): warning C4024: 'UpisP': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(68,20): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(68,17): warning C4024: 'UnosStudenta': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(68,29): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(68,22): warning C4024: 'UnosStudenta': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(69,17): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(69,14): warning C4024: 'UpisK': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(69,26): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(69,19): warning C4024: 'UpisK': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(75,20): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(75,17): warning C4024: 'UnosStudenta': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(75,29): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(75,22): warning C4024: 'UnosStudenta': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,19): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,16): warning C4024: 'UpisIza': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,28): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,21): warning C4024: 'UpisIza': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,45): warning C4047: 'function': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(76,35): warning C4024: 'UpisIza': different types for formal and actual parameter 4
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(82,20): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(82,17): warning C4024: 'UnosStudenta': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(82,29): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(82,22): warning C4024: 'UnosStudenta': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,22): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,19): warning C4024: 'UpisIspred': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,31): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,24): warning C4024: 'UpisIspred': different types for formal and actual parameter 2
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,48): warning C4047: 'function': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(83,38): warning C4024: 'UpisIspred': different types for formal and actual parameter 4
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(89,22): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *(*)[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(89,14): warning C4024: 'Trazi': different types for formal and actual parameter 1
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(95,18): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *(*)[1024]'
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\vjezba3\zad3.c(95,10): warning C4024: 'Brisi': different types for formal and actual parameter 1
+  vjezba3.vcxproj -> C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba3\x64\Debug\vjezba3.exe
