@@ -22,7 +22,7 @@ typedef struct Izraz {
 int CitajIzraz(char* ime_dat, Position p);
 int Ispis(Position p);
 int push(float n,Position p);
-float pop(Position p);
+float pop(Position p,int* flag);
 int BrojiStog(Position p);
 int BrisiSve(Position p);
 int main() {
@@ -58,29 +58,37 @@ int CitajIzraz(char* ime_dat, Position p) {
 	char buffer[MAX_RED] = { 0 };
 	char* pok = buffer;
 	float n = 0,prvi=0,drugi=0;
-
+	int flag;
 	while (!feof(fp)) {
 		fscanf(fp, " %s", buffer);
 		if (sscanf(pok, "%f", &n) != 1) {
 			switch (*pok) {
 			case '+':	
-				drugi = pop(p);
-				prvi = pop(p);
+				drugi = pop(p,&flag);
+				prvi = pop(p, &flag);
+				if (flag == 1)
+					return EXIT_FAILURE;
 				push(prvi + drugi,p); 
 				break;
 			case '-':
-				drugi = pop(p);
-				prvi = pop(p);
+				drugi = pop(p, &flag);
+				prvi = pop(p, &flag);
+				if (flag == 1)
+					return EXIT_FAILURE;
 				push(prvi - drugi, p);
 				break;
 			case '*':
-				drugi = pop(p);
-				prvi = pop(p);
+				drugi = pop(p, &flag);
+				prvi = pop(p, &flag);
+				if (flag == 1)
+					return EXIT_FAILURE;
 				push(prvi * drugi, p);
 				break;
 			case '/':
-				drugi = pop(p);
-				prvi = pop(p);
+				drugi = pop(p, &flag);
+				prvi = pop(p, &flag);
+				if (flag == 1)//STOG JE PRAZAN
+					return EXIT_FAILURE;
 				if (drugi == 0) {
 					printf("Zabranjeno je dijeljenje s nulom! >:(\n");
 					return NULA;
@@ -130,10 +138,12 @@ int push(float n, Position p) {//UpisNaPocetak
 	p->next = q;
 	return EXIT_SUCCESS;
 }
-float pop(Position p) {//BrisanjesPocetka
+float pop(Position p, int *flag) {//BrisanjesPocetka
 	Position q;
+	*flag = 0;
 	if (p->next == NULL) {
 		printf("Stog je prazan\n");
+		*flag = 1;
 		return EXIT_FAILURE;
 	}
 	float pom=0;
