@@ -31,6 +31,7 @@ int Brisi(char* prezime, Position p);
 int SortirajStudente(Position p);
 int UpisListeUDatoteku(Position p);
 int CitajListuIzDatoteku(Position p);
+int BrisiSve(Position p);
 
 int main() {
 	Osoba head = {
@@ -99,6 +100,7 @@ int main() {
 			break;
 		case '0':
 			printf("\tDovidenja\n");
+			BrisiSve(&head);			
 			return EXIT_SUCCESS;
 			break;
 		case 'U':
@@ -112,8 +114,7 @@ int main() {
 		}
 	} while (1);
 	
-	return EXIT_SUCCESS;
-}
+	}
 
 
 
@@ -301,4 +302,13 @@ int CitajListuIzDatoteku(Position p) {
 		UpisK(ime,prezime,god,p);	
 	fclose(fp);
 	return EXIT_SUCCESS;
+}
+int BrisiSve(Position p) {
+	Position q;
+	while (p->next != NULL) {
+		q = p->next;
+		p->next = q->next;
+		free(q);
+	}
+
 }
