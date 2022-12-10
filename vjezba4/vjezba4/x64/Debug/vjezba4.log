@@ -1,5 +1,6 @@
 ﻿  zad4.c
-C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(57,2): warning C4013: 'Ispis' undefined; assuming extern returning int
-C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(80,8): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(90,8): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(58,2): warning C4013: 'Ispis' undefined; assuming extern returning int
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(85,8): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(95,8): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\vjezba4\zad4.c(237): warning C4716: 'BrisiSve': must return a value
   vjezba4.vcxproj -> C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba4\x64\Debug\vjezba4.exe

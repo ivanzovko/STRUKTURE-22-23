@@ -22,6 +22,7 @@ int MnoziPolinome(Position prvi,Position drugi,Position umnozak);
 int ZbrojiPolinome(Position prvi, Position drugi, Position zbroj);
 int ZbrojiPomnozeno(Position p);
 int Brisi(int a,Position p);
+int BrisiSve(Position p);
 
 int main() {
 	Polinom head1 = {
@@ -61,6 +62,10 @@ int main() {
 	Ispis(&head3);
 	printf("\nUmnozak polinoma:\t");
 	Ispis(&head4);
+	BrisiSve(&head1);
+	BrisiSve(&head2);
+	BrisiSve(&head3);
+	BrisiSve(&head4);
 	return EXIT_SUCCESS;
 }
 int CitajPolinome(char* ime_dat, Position p, Position q) {
@@ -220,4 +225,13 @@ int Brisi(int a, Position p) {
 	p->next = temp->next;
 	free(temp);
 	return EXIT_SUCCESS;
+}
+int BrisiSve(Position p) {
+	Position q;
+	while (p->next != NULL) {
+		q = p->next;
+		p->next = q->next;
+		free(q);
+	}
+
 }
