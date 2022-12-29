@@ -1,0 +1,5 @@
+﻿  zad9.c
+C:\Users\rokoz\OneDrive\Radna površina\STRUKTURE-22-23-main\vjezba9\vjezba9\zad9.c(142,3): warning C4033: 'UpisStabla' must return a value
+C:\Users\rokoz\OneDrive\Radna površina\STRUKTURE-22-23-main\vjezba9\vjezba9\zad9.c(165,43): warning C4133: '=': incompatible types - from 'Position' to 'SPosition'
+C:\Users\rokoz\OneDrive\Radna površina\STRUKTURE-22-23-main\vjezba9\vjezba9\zad9.c(147): warning C4715: 'UpisStabla': not all control paths return a value
+  vjezba9.vcxproj -> C:\Users\rokoz\OneDrive\Radna površina\STRUKTURE-22-23-main\vjezba9\x64\Debug\vjezba9.exe
