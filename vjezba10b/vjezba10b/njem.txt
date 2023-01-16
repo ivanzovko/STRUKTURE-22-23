@@ -1,0 +1,15 @@
+Berlin		3460725	
+Hamburg		1786448	
+Munchen		1353186	
+Koln		1007119
+Frankfurt 	679664	
+Stuttgart	606588	
+Dusseldorf	588735	
+Dortmund	580444	
+Essen		574635		
+Bremen		547340	
+Dresden		523058	
+Leipzig		522883	
+Hanover		522686	
+Nurnberg	503673	
+Duisburg	489599

@@ -1,0 +1,4 @@
+﻿  zad10b.c
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba10b\vjezba10b\zad10b.c(32,2): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba10b\vjezba10b\zad10b.c(47,35): warning C4020: 'CitajGradove': too many actual parameters
+  vjezba10b.vcxproj -> C:\Users\izovk\Desktop\STRUKTURE-22-23\vjezba10b\x64\Debug\vjezba10b.exe

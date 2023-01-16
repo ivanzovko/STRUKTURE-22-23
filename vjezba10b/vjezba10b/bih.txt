@@ -1,0 +1,15 @@
+Sarajevo 271194
+Brcko 39893
+Doboj 25132
+Bihac 39690
+Zenica 70553
+Bijeljina 45278
+Cazin 13863
+Zvornik 11497
+Zivinice 16157
+Travnik	15344
+Mostar 60195
+Prijedor 29555
+Ilidza	63528
+Banja_Luka 138963
+Tuzla 74457
